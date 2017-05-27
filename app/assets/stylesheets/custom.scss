@@ -1,4 +1,9 @@
 $navbar-default-bg: red;
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
 #logo{
   float:left;
   font-size:1.7em;
@@ -36,6 +41,15 @@ $navbar-default-bg: red;
   color: white;
 }
 
+.article-actions{
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description{
+  margin-top: 0;
+}
+
 footer{
   margin-top: 45px;
   padding-top: 5px;
@@ -60,7 +74,3 @@ footer ul li{
   float: left;
   margin-left: 15px;
 }
-
-
-@import "bootstrap-sprockets";
-@import "bootstrap";
